@@ -1,0 +1,23 @@
+{
+  "$schema": "https://modelcontextprotocol.io/schema/server.json",
+  "name": "warungjovalga-mcp",
+  "title": "Warung Jovalga AI Micro-Services",
+  "description": "Deterministic micro-services (regex cleaning, AST parsing, Parquet formatting) settled on Base L2.",
+  "version": "1.0.0",
+  "vendor": "PapiJo Corporation",
+  "homepage": "https://warungjovalga.shop",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/asepsepep/warungjovalga-mcp.git"
+  },
+  "capabilities": {
+    "tools": true
+  },
+  "settlement": {
+    "protocol": "HTTP_402_BASE_L2",
+    "chain_id": 8453,
+    "token": "USDC_NATIVE",
+    "contract": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "vault": "0x00Ef3968d0de5eA51c6edB10EDDAFab898c69F2a"
+  }
+}
